@@ -63,6 +63,7 @@ img#caro3{
     flex-direction: row;
     height: auto;
     justify-content: center;
+    max-height: 900px;
 }
 #banner{
     margin:0px 3% 0px 4%;
