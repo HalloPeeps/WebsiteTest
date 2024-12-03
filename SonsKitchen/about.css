@@ -1,6 +1,7 @@
 body{
     background-color: #191b1b;
 }
+/*Nav*/
 .navbar{
     background-color: #111111;
     position:relative;
@@ -16,10 +17,11 @@ nav div a img.homelogo{
     border-radius: 20px;
 }
 
+/*Footer*/
 footer{
     min-height: 50px;
     background-color: #858786;
-    position: absolute;
+    position: relative;
     bottom: 0;
     width: 100%;
     padding-top: 40px;

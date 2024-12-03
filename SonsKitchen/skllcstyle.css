@@ -19,7 +19,7 @@ nav div a img.homelogo{
 footer{
     min-height: 50px;
     background-color: #858786;
-    position: absolute;
+    position: relative;
     bottom: 0;
     width: 100%;
     padding-top: 40px;
