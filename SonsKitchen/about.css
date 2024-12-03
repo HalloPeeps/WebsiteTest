@@ -1,7 +1,7 @@
 body{
     background-color: #191b1b;
 }
-/*Nav*/
+/*NAV*/
 .navbar{
     background-color: #111111;
     position:relative;
@@ -16,8 +16,44 @@ nav div a img.homelogo{
     margin-left: 12px;
     border-radius: 20px;
 }
+/*CONTENT*/
+.content{
+    display:flex;
+    flex-direction: row;
+    justify-content: baseline;
+}
+.ImageItem{
+    width:55%;
+    height:auto;
+    margin:6% 1.2% 0 3%;
+}
+.ImageItem img{
+    width:100%;
+    min-height:310px ;
+}
+.contentinfo{
+    position: relative;
+    color: #c5c5c5
+}
 
-/*Footer*/
+@media only screen and (max-width:750px){
+    .content{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .ImageItem{
+        width:80%;
+        height:auto;
+        margin:6% 1.2% 0 3%;
+    }
+    .ImageItem img{
+        width:100%;
+        min-height:310px ;
+    }
+}
+
+/*FOOTER*/
 footer{
     min-height: 50px;
     background-color: #858786;
