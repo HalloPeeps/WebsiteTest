@@ -20,7 +20,7 @@ nav div a img.homelogo{
 .content{
     display:flex;
     flex-direction: row;
-    justify-content: baseline;
+    align-items: baseline;
 }
 .ImageItem{
     width:55%;
@@ -33,7 +33,8 @@ nav div a img.homelogo{
 }
 .contentinfo{
     position: relative;
-    color: #c5c5c5
+    color: #c5c5c5;
+    margin-top:1em;
 }
 
 @media only screen and (max-width:750px){
