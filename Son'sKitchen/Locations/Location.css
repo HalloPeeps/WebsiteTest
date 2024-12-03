@@ -1,0 +1,122 @@
+body{
+    background-color: #191b1b;
+}
+.navbar{
+    background-color: #111111;
+    position:fixed;
+}
+.offcanvas{
+    background-color: #191b1b;
+}
+nav div a img.homelogo{
+    width:auto;
+    height: 50px;
+    margin-top: 3px;
+    margin-left: 12px;
+    border-radius: 20px;
+}
+
+footer{
+    min-height: 50px;
+    background-color: #858786;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    padding-top: 40px;
+}
+footer div.d-sm-flex{
+    margin:4px 12% 0px
+}
+p#copyr{
+    margin-bottom: 0;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+p#terms{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+ul.address{
+    margin-top:12px;
+    margin-bottom:0px;
+    padding-bottom:20px;
+}
+li.more{
+    padding:12px auto;
+    margin:12px auto;
+}
+#LocateHeader{
+    color: #c5c5c5;
+    margin-left:4.6%;
+}
+.cards-container{
+    display: flex;
+    flex-direction: row;
+    padding-left: 1.2%;
+}
+.card{
+    width: 75%;
+    margin-bottom: 1.2%;
+}
+.card-text{
+    list-style-type: none;
+    font-size: 120% ;
+    padding:0 auto;
+}
+.content{
+    margin-top: 90px;
+    height:300px;
+}
+.Outside-Text{
+    color:#c5c5c5;
+    margin-left: 4%;
+    width: 60%;
+}
+.Info{
+    list-style-type: none;
+    font-size: 120%;
+    padding:0 auto;
+}
+button{
+    margin-left:1.1%;
+}
+.btn{
+    color:#c5c5c5;
+    border-color: #c5c5c5;
+    position:relative;
+}
+@media only screen and (max-width: 900px) {
+    .card-text{
+        font-size:90%;
+    }
+    .Outside-Text h1{
+        font-size: 190%;
+    }
+    .Info{
+    font-size:90%;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .card-text{
+        font-size:90%;
+    }
+    .Outside-Text h1{
+        margin-left:none;
+        font-size: 200%;
+        width:100%;
+    }
+    .Info{
+        font-size: 120%;
+    }
+    .cards-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .card{
+        margin:3% auto;
+        width: 90%;
+    }
+}

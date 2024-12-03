@@ -1,0 +1,49 @@
+body{
+    background-color: #191b1b;
+}
+.navbar{
+    background-color: #111111;
+    position:relative;
+}
+.offcanvas{
+    background-color: #191b1b;
+}
+nav div a img.homelogo{
+    width:auto;
+    height: 50px;
+    margin-top: 3px;
+    margin-left: 12px;
+    border-radius: 20px;
+}
+
+footer{
+    min-height: 50px;
+    background-color: #858786;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding-top: 40px;
+}
+footer div.d-sm-flex{
+    margin:4px 12% 0px
+}
+p#copyr{
+    margin-bottom: 0;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+p#terms{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+ul.address{
+    margin-top:12px;
+    margin-bottom:0px;
+    padding-bottom:20px;
+}
+li.more{
+    padding:12px auto;
+    margin:12px auto;
+}
